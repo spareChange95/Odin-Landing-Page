@@ -78,7 +78,7 @@ img{
 }
 
 .p-first{
-    font-size: 18px;
+    font-size: 15px;
     color: #E5E7EB;
 }
 
@@ -89,6 +89,7 @@ img{
     height: 40px;
     border: 1px #3882F6;
     border-radius: 10px;
+    margin-top:10px;
 }
 /*#endregion*/
 
@@ -149,4 +150,44 @@ h3{
     margin-right: 300px;
 }
 
+/*#endregion*/
+
+/*#region Fourth Section*/
+.fourth-section{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.blue-container{
+    background-color: #3882F6;
+    width: 85%;
+    height: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left{
+    width: 80%;
+}
+
+h4{
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+}
+
+.btn-fourth-div{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
 /*#endregion*/
