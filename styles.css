@@ -5,6 +5,7 @@
     padding: 0;
 }
 
+/*#region First Section*/
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -89,7 +90,9 @@ img{
     border: 1px #3882F6;
     border-radius: 10px;
 }
+/*#endregion*/
 
+/*#region Second section*/
 .second-section{
     display: flex;
     flex-direction: column;
@@ -105,9 +108,9 @@ h2{
 .row-of-blue-divs{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     max-width: 100%;
-    margin: 50px;
+    margin: 100px;
 }
 
 .box-blue{
@@ -121,3 +124,29 @@ h2{
     text-align: center;
     font-size: 18px;
 }
+/* #endregion */
+
+/*#region Third section*/
+.third-section{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+h3{
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+}
+
+.p-third{
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: end;
+    margin-right: 300px;
+}
+
+/*#endregion*/
