@@ -111,7 +111,7 @@ h2{
     flex-direction: row;
     justify-content: space-evenly;
     max-width: 100%;
-    margin: 100px;
+    margin: 80px;
 }
 
 .box-blue{
@@ -124,6 +124,7 @@ h2{
 .p-second{
     text-align: center;
     font-size: 18px;
+    margin-top: 10px;
 }
 /* #endregion */
 
@@ -191,3 +192,11 @@ h4{
     border-radius: 10px;
 }
 /*#endregion*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+}
